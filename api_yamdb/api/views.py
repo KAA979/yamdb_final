@@ -191,3 +191,4 @@ class SignInViewSet(viewsets.ModelViewSet):
         return Response(
             {"token": str(token.access_token)}, status=status.HTTP_200_OK
         )
+        #
