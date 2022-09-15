@@ -9,7 +9,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: kaa979/api_yamdb:v1.0
+    image: kaa979/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
